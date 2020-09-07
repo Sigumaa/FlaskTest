@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Hello Heroku_Flask'
+    return 'Hello New World!'
 
 if __name__ == '__main__':
     app.run()
